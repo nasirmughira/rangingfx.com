@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="80" y="80" width="1040" height="470" rx="60" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+  <text x="100" y="220" font-family="Inter, sans-serif" font-size="64" fill="#ffffff" font-weight="700">RangingFX Premium</text>
+  <text x="100" y="300" font-family="Inter, sans-serif" font-size="32" fill="#94a3b8">Modern fintech websites for trading and capital markets.</text>
+  <rect x="100" y="360" width="260" height="14" rx="7" fill="url(#grad)" />
+  <circle cx="460" cy="390" r="72" fill="#0f172a" stroke="#38bdf8" stroke-width="6" />
+  <path d="M412 436 L448 364 L484 392 L524 338" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" />
+</svg>

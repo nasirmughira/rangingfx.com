@@ -1,0 +1,10 @@
+name = "rangingfx-premium"
+main = "./public/_worker.js"
+compatibility_date = "2026-05-17"
+account_id = ""
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "service-worker"

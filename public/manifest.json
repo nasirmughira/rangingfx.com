@@ -1,0 +1,16 @@
+{
+  "name": "RangingFX Premium",
+  "short_name": "RangingFX",
+  "description": "Premium fintech website with trading design, fast loading experience, and built for Cloudflare Pages.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#38bdf8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
