@@ -1,4 +1,5 @@
 import { Hero } from '@/components/hero';
+export const dynamic = 'force-dynamic';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { ScrollProgress } from '@/components/scroll-progress';

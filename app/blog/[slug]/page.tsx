@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+export const dynamic = 'force-dynamic';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { getAllSlugs, getPostBySlug } from '@/lib/blog';
 import components from '@/components/mdx-components';

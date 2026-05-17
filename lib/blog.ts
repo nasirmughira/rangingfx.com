@@ -42,7 +42,7 @@ export const getPostBySlug = async (slug: string) => {
   const mdxSource = await serialize(content, {
     mdxOptions: {
       remarkPlugins: [remarkGfm],
-      rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings, rehypePrismPlus]
+      rehypePlugins: [rehypeSlug as any, rehypeAutolinkHeadings as any, rehypePrismPlus as any]
     }
   });
 
